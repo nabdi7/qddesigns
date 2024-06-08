@@ -1,6 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+}
+
+
+@layer utilities {
+  /* Fonts */
+
+
+
+  /* Buttons */
+  .btn_white {
+    @apply border-white bg-white px-8 py-3 text-green-50
+  }
+
+
+}
 
 .button-color {
   background-color: #284b63;
