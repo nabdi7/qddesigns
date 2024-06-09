@@ -4,8 +4,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flexCenter mb-5 py-20">
-      <div className="padding-container max-w-4xl mx-auto flex w-full flex-col gap-12">
+    <footer className="max-container mb-5 py-20 ">
+      <div className="padding-container flex w-full flex-col gap-12 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
         <div className="flex flex-col items-start md:flex-row md:items-start md:gap-8">
           <Link href="/" className="mb-4 md:mb-0 md:mr-12">
             <Image src="/logo.png" alt="logo" width={150} height={150} />
@@ -37,7 +37,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-
+            
             <div className="flex flex-col gap-2">
               <h4 className="bold-18">Get in Touch</h4>
               <p>11235 1st Ave S, Seattle, WA</p>

@@ -6,7 +6,7 @@ import Button from '../button/Button'
 
 const Navbar = () => {
   return (
-    <nav className='flexBetween max-container padding-container relative z-30 py-5'>
+    <nav className='max-container padding-container relative z-30 py-5'>
       <div className='h-20 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 relative'>
         <div className='h-full flex items-center justify-between'>
           <Link href='/'>
@@ -28,7 +28,7 @@ const Navbar = () => {
             <Button 
               type='button' 
               title='Get A Quote'
-              variant='button-color' 
+              variant='btn_white' 
               shape='rectangle' 
               href='/getquote'
             />

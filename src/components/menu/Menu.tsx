@@ -47,7 +47,7 @@ const Menu = () => {
           <Button 
             type='button'
             title='Get A Quote' 
-            variant='button-color'
+            variant='btn_white'
             shape='rectangle' 
             href='/getquote' 
           />

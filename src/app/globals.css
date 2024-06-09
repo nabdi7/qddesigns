@@ -17,21 +17,78 @@ body {
 
 @layer utilities {
   /* Fonts */
+  .regular-64 {
+    @apply text-[64px] font-[400] leading-[120%];
+  }
 
+  .regular-40 {
+    @apply text-[40px] font-[400] leading-[120%];
+  }
 
+  .regular-32 {
+    @apply text-[32px] font-[400];
+  }
 
-  /* Buttons */
-  .btn_white {
-    @apply border-white bg-white px-8 py-3 text-green-50
+  .regular-24 {
+    @apply text-[24px] font-[400];
+  }
+
+  .regular-20 {
+    @apply text-[20px] font-[400];
+  }
+
+  .regular-18 {
+    @apply text-[18px] font-[400];
+  }
+
+  .regular-16 {
+    @apply text-[16px] font-[400];
+  }
+
+  .regular-14 {
+    @apply text-[14px] font-[400];
+  }
+
+  .medium-14 {
+    @apply text-[14px] font-[600];
+  }
+
+  .bold-88 {
+    @apply text-[88px] font-[700] leading-[120%];
+  }
+  .bold-68 {
+    @apply text-[68px] font-[700] leading-[120%];
+  }
+  .bold-52 {
+    @apply text-[52px] font-[700] leading-[120%];
   }
 
 
+  /* Buttons */
+  .btn_white { 
+    @apply border-white bg-gray-700 px-8 py-3 rounded-full text-white hover:bg-gray-900 hover:text-white
+  }
+  .btn_outline { 
+    @apply border-gray-900  px-8 py-3 rounded-full hover:bg-gray-900 hover:text-white
+  }
+  /* rectangle */
+  .btn_white_rect {
+    @apply border-white bg-gray-700 px-8 py-3 text-white
+  }
+
+  .max-container {
+    @apply  mx-auto max-w-[1400px];
+  }
+
+  .padding-container {
+    @apply px-6 lg:px-6 xl:px-0 2xl:px-0;
+  }
 }
 
-.button-color {
+/* .button-color {
   background-color: #284b63;
   color: white;
-}
+} */
 
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
