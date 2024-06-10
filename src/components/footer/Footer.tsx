@@ -40,7 +40,8 @@ const Footer = () => {
             
             <div className="flex flex-col gap-2">
               <h4 className="bold-18">Get in Touch</h4>
-              <p>11235 1st Ave S, Seattle, WA</p>
+              <p>info@qualitydesigns.site</p>
+              {/* <p>11235 1st Ave S, Seattle, WA</p> */}
               <p>206 883 3462</p>
               <ul className="flex gap-2 mt-2">
                 <li>

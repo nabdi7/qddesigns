@@ -21,18 +21,18 @@ const Menu = () => {
         <Image
           src='/close.svg'
           alt='close'
-          width={28}
-          height={28}
+          width={38}
+          height={38}
           className='cursor-pointer'
           onClick={handleCloseMenu}
         />
       )}
       {!open && (
         <Image
-          src='/menu.svg'
+          src='/menu-right.svg'
           alt='menu'
-          width={28}
-          height={28}
+          width={46}
+          height={46}
           className='cursor-pointer'
           onClick={handleToggleMenu}
         />
