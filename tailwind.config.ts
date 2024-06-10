@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        'slide-from-right': 'slide-from-right 40s linear infinite', 
+      },
+      keyframes: {
+        'slide-from-right': {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
       colors: {
         green: {
           50: '#30AF5B',

@@ -40,7 +40,7 @@ const Menu = () => {
       {open && (
         <div className='absolute p-5 bg-white shadow-lg left-0 top-20 w-full flex flex-col gap-8'>
           <Link href='/about' className='cursor-pointer transition-all hover:font-bold'> About </Link>
-          <Link href='/packages' className='cursor-pointer transition-all hover:font-bold'> Packages </Link>
+          <Link href='/pricing' className='cursor-pointer transition-all hover:font-bold'> Pricing </Link>
           <Link href='/services' className='cursor-pointer transition-all hover:font-bold'> Services </Link>
           <Link href='/projects' className='cursor-pointer transition-all hover:font-bold'> Projects </Link>
           <Link href='/contact' className='cursor-pointer transition-all hover:font-bold'> Contact </Link>

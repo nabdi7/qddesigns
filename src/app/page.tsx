@@ -2,9 +2,12 @@ import Image from "next/image";
 import Landing from "@/components/landing/Landing"
 import About from "@/components/about/About";
 import Services from "@/components/services/Services";
-import Clients from "@/components/clients/Clients";
-import Testimonial from "@/components/testimonial/Testimonial";
+// import Stats from "@/components/stats/Stats";
+// import Clients from "@/components/clients/Clients";
 import Cta from "@/components/cta/Cta"
+import Testimonials from "@/components/testimonial/Testimonial";
+// import Brands from "@/components/brands";
+
 
 export default function Home() {
   return (
@@ -12,9 +15,11 @@ export default function Home() {
       <Landing />
       <About />
       <Services />
-      <Clients />
-      <Testimonial />
+      {/* <Stats /> */}
+      {/* <Clients /> */}
+      <Testimonials />
       <Cta />
+      {/* <Brands /> */}
     </main>
   );
 }
