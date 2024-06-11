@@ -5,7 +5,7 @@ import Button from '../button/Button'
 const Home = () => {
   return (
     <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20">
-      <div className='flex flex-1 flex-col md:flex-col lg:flex-row z-20 xl:w-full h-20 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64'>
+      <div className='flex flex-1 flex-col md:flex-col lg:flex-row z-20 xl:w-full 2xl:w-full h-20 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64'>
         <div className='flex-1'>
           <h1 className='text-22 lg:text-48 text-gray-30'>We Bring Your Business Ideas to Life</h1>
           <h1 className='bold-52 lg:bold-68 md:bold-62'>

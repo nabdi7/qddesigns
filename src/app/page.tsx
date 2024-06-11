@@ -2,7 +2,7 @@ import Image from "next/image";
 import Landing from "@/components/landing/Landing"
 import About from "@/components/about/About";
 import Services from "@/components/services/Services";
-// import Stats from "@/components/stats/Stats";
+import Stats from "@/components/stats/Stats";
 // import Clients from "@/components/clients/Clients";
 import Cta from "@/components/cta/Cta"
 import Testimonials from "@/components/testimonial/Testimonial";
@@ -15,7 +15,7 @@ export default function Home() {
       <Landing />
       <About />
       <Services />
-      {/* <Stats /> */}
+      <Stats />
       {/* <Clients /> */}
       <Testimonials />
       <Cta />
