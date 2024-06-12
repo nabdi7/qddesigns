@@ -13,8 +13,8 @@ const Footer = () => {
       
           <div className="flex flex-wrap gap-8 sm:justify-between md:flex-1">
             <div className="flex flex-col gap-2">
-              <h4 className="bold-18">Our Guidelines</h4>
-              <ul className="regular-14 flex flex-col gap-1 text-gray-30">
+              <h4 className="regular-18">Our Guidelines</h4>
+              <ul className="regular-16 flex flex-col gap-1 text-gray-30">
                 <li>
                   <Link href="/about" className="hover:text-green-50">
                     About
@@ -39,10 +39,10 @@ const Footer = () => {
             </div>
             
             <div className="flex flex-col gap-2">
-              <h4 className="bold-18">Get in Touch</h4>
-              <p>info@qualitydesigns.site</p>
+              <h4 className="regular-18">Get in Touch</h4>
+              <p className="regular-16 flex flex-col gap-1 text-gray-30 hover:text-green-50 cursor-pointer">info@qualitydesigns.site</p>
               {/* <p>11235 1st Ave S, Seattle, WA</p> */}
-              <p>206 883 3462</p>
+              <p className="regular-16 flex flex-col gap-1 text-gray-30 hover:text-green-50 cursor-pointer">206 883 3462</p>
               <ul className="flex gap-2 mt-2">
                 <li>
                   <Link
@@ -103,8 +103,8 @@ const Footer = () => {
               </ul>
             </div>
             <div className="flex flex-col gap-2">
-              <h4 className="bold-18">Subscribe</h4>
-              <p>Dont miss any updates</p>
+              <h4 className="regular-18">Subscribe</h4>
+              <p className="text-gray-30">Dont miss any updates</p>
               <form className="flex flex-col items-start">
                 <input
                   type="email"
