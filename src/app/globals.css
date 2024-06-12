@@ -83,6 +83,9 @@ body {
   .padding-container {
     @apply px-6 lg:px-6 xl:px-0 2xl:px-0;
   }
+  .custom-screen {
+    @apply max-w-screen-xl mx-auto px-4 md:px-8;
+  }
 }
 
 /* .button-color {

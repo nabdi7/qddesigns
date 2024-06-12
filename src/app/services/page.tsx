@@ -1,8 +1,13 @@
 import React from 'react'
+import Services from '@/components/services/Services'
+import Cta from '@/components/cta/Cta'
 
 const page = () => {
   return (
-    <div>services</div>
+    <div>
+      <Services />
+      <Cta />
+    </div>
   )
 }
 
