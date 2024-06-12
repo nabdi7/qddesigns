@@ -131,7 +131,7 @@ const Packages = () => {
   ];
   return (
     
-    <section className="py-14 flex flex-col gap-20 pb-32 md:gap-28 lg:py-20 bg-gray-500">
+    <section className="py-14 flex flex-col gap-20 pb-32 md:gap-28 lg:py-20 bg-gray-200">
       <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
         <div className="max-w-xl space-y-3">
           <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
