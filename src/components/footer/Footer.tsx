@@ -3,71 +3,6 @@ import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
-  const footerNavs = [
-    {
-      label: "Company",
-      items: [
-        {
-          href: "javascript:void()",
-          name: "Partners",
-        },
-        {
-          href: "javascript:void()",
-          name: "Blog",
-        },
-        {
-          href: "javascript:void()",
-          name: "Team",
-        },
-        {
-          href: "javascript:void()",
-          name: "Careers",
-        },
-      ],
-    },
-    {
-      label: "Resources",
-      items: [
-        {
-          href: "javascript:void()",
-          name: "contact",
-        },
-        {
-          href: "javascript:void()",
-          name: "Support",
-        },
-        {
-          href: "javascript:void()",
-          name: "Docs",
-        },
-        {
-          href: "javascript:void()",
-          name: "Pricing",
-        },
-      ],
-    },
-    {
-      label: "About",
-      items: [
-        {
-          href: "javascript:void()",
-          name: "Terms",
-        },
-        {
-          href: "javascript:void()",
-          name: "License",
-        },
-        {
-          href: "javascript:void()",
-          name: "Privacy",
-        },
-        {
-          href: "javascript:void()",
-          name: "About US",
-        },
-      ],
-    },
-  ];
   return (
     <footer className="max-container mb-5 py-20 ">
       <div className="padding-container flex w-full flex-col gap-12 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
@@ -75,7 +10,7 @@ const Footer = () => {
           <Link href="/" className="mb-4 md:mb-0 md:mr-12">
             <Image src="/logo.png" alt="logo" width={150} height={150} />
           </Link>
-
+      
           <div className="flex flex-wrap gap-8 sm:justify-between md:flex-1">
             <div className="flex flex-col gap-2">
               <h4 className="bold-18">Our Guidelines</h4>
@@ -102,7 +37,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-
+            
             <div className="flex flex-col gap-2">
               <h4 className="bold-18">Get in Touch</h4>
               <p>info@qualitydesigns.site</p>
