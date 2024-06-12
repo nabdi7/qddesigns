@@ -65,6 +65,9 @@ body {
 
 
   /* Buttons */
+  .btn {
+    @apply block py-2 px-4 text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none
+  }
   .btn_white { 
     @apply border-white bg-gray-700 px-8 py-3 rounded-full text-white hover:bg-gray-900 hover:text-white
   }

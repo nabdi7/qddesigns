@@ -6,7 +6,7 @@ const Cta = () => {
       <div className="relative z-10 max-w-screen-xl mx-auto  md:text-center md:px-8">
         <div className="max-w-xl md:mx-auto">
           <p className="text-white text-3xl font-semibold sm:text-4xl">
-            Do you have any projects?
+          Lets build your website today!
           </p>
           <p className="text-blue-100 mt-3">
             we can help you grow your online business quickly using the best

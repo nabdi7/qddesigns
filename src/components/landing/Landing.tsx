@@ -11,9 +11,9 @@ const Home = () => {
             We Bring Your Business Ideas to Life
           </h1>
           <h2 className="text-4xl text-gray-800 font-extrabold mx-auto md:text-5xl">
-            Design your projects faster with{" "}
+            We develop fast, dynamic {" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4F46E5] to-[#E114E5]">
-              the largest figma UI kit
+              websites for your Business
             </span>
           </h2>
           <p className="max-w-2xl mx-auto">
@@ -22,6 +22,13 @@ const Home = () => {
             Unlock creative excellence today.
           </p>
           <div className="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
+            {/* <Button 
+              type='button' 
+              title='Get started'
+              variant='btn' 
+              shape='rectangle' 
+              href='/getquote'
+            /> */}
             <a
               href="javascript:void(0)"
               className="block py-2 px-4 text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none"

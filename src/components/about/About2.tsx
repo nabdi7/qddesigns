@@ -12,23 +12,22 @@ const About2 = () => {
               We help you get more website traffic to your site.
             </h2>
             <p className="mt-3 text-gray-600">
-              QD Web Designs brings you the freshest, up-to-date website traffic
-              trends. An easy way to find out the most popular and engaging
-              content to help you grow.
+              QD Web Designs increases website traffic and engagement through
+              specialized SEO strategies. Count on us to enhance your online
+              visibility and drive growth.
             </p>
           </div>
         </div>
-        <div className="custom-screen flex flex-col-reverse gap-x-12 justify-between xl:flex-row lg:flex-row md:flex-row md:items-center">
-          <div className="flex-none max-w-2xl mt-12 space-y-3 md:mt-0">
+        <div className="custom-screen flex flex-col-reverse gap-x-12 justify-between xl:flex-row lg:flex-row md:flex-col-reverse md:items-center">
+          <div className="flex-none max-w-2xl mt-12 space-y-3 md:mt-12 md:max-w-4xl lg:max-w-2xl">
             <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-              Simple, powerful ways to increase website users.
+              Simple, effective ways to increase website traffic.
             </h2>
             <p className="text-gray-600">
-              QD Web Designs is a new, revolutionary & cost-effective way to
-              grow your website &apos;s traffic. It&apos;s a super-simple,
-              one-time fee that will make your site rank higher on Google and
-              bring in more visitors. We&apos;re so confident, we offer a 100%
-              money back guarantee.
+              QD Web Designs offers a streamlined and affordable solution to
+              increase your website&apos;s traffic. Our straightforward approach
+              guarantees higher Google rankings and attracts more visitors.
+              We&apos;re so confident in our service that we offer a 100% money back guarantee.
             </p>
             <div className="pt-1">
               <Button
