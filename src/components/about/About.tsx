@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Button from "../button/Button";
 import About2 from "./About2";
 
 const About = () => {
