@@ -18,7 +18,7 @@ const Pricing = () => {
     },
     {
       name: "Premium",
-      desc: "We will create a custom designed website.",
+      desc: "We will create a custom designed website from scratch.",
       price: 2000,
       isMostPop: true,
       features: [

@@ -63,21 +63,24 @@ const Services = () => {
       </div>
       <div className="mt-10">
         {services.map((service, index) => (
-          <div key={index} className=" mb-12 flex">
-            <div className="flex flex-col items-center w-1/4">
-              <div className="icon text-4xl mb-2">{service.icon}</div>
-              <h2 className="text-xl font-bold text-gray-800 text-center">
+          <div
+            key={index}
+            className="flex flex-col lg:flex-row items-center mb-16"
+          >
+            <div className="flex flex-col items-center w-full lg:w-1/2 text-center">
+              <div className="text-6xl mb-4">{service.icon}</div>
+              <h2 className="text-2xl font-bold text-gray-800">
                 {service.title}
               </h2>
             </div>
-            <div className=" w-3/4 pl-6">
-              <p className=" text-gray-600 mb-4">{service.description}</p>
-              <div className="">
-                <ol className=" list-disc pl-5">
-                  {service.types.map((type, typeIndex) => (
-                    <li key={typeIndex}>{type}</li>
-                  ))}
-                </ol>
+            <div className="w-full lg:w-1/2 lg:pl-12 text-left">
+              <p className="text-gray-600 mb-4">{service.description}</p>
+              <div className="grid grid-cols-2 gap-x-4 list-disc pl-5 text-gray-600">
+                {service.types.map((type, typeIndex) => (
+                  <li key={typeIndex} className="break-words">
+                    {type}
+                  </li>
+                ))}
               </div>
             </div>
           </div>
