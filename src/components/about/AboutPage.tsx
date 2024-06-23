@@ -1,79 +1,66 @@
 import React from "react";
 
 const AboutPage = () => {
+  // icons
+
   return (
     <>
-      <section className="pt-14">
-        <div className="max-w-screen-xl mx-auto px-4 text-gray-600 gap-x-12 items-start justify-between lg:flex md:px-8">
-          <div className="sm:hidden lg:block lg:max-w-xl">
-            <img
-              src="/restaurant.png"
-              className="w-full object-cover rounded-xl"
-              alt="about page image"
-              // width={500}
-              // height={500}
-            />
-          </div>
-          <div className="mt-6 gap-12 sm:mt-0 md:flex md:flex-col lg:block">
-            <div className="max-w-2xl">
-              <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                About Us
-              </h3>
-              <p className="mt-3 max-w-xl">
-                We are a team of developers, designers, and marketers who are
-                dedicated to creating amazing websites for our clients. We
-                believe that a website should be more than just a pretty face;
-                it should be a powerful tool that helps you achieve your goals.
-              </p>
-              <p className="mt-3 max-w-xl">
-                Whether you need a simple blog, an e-commerce site, or a
-                custom-built web application, we have the skills and experience
-                to bring your vision to life. Let us help you take your online
-                presence to the next level!
-              </p>
-              <p className="mt-3 max-w-xl">
-                We are passionate about what we do, and we are committed to
-                providing the best possible service to our clients. We take the
-                time to understand your needs and goals, and we work closely
-                with you every step of the way to ensure that you are happy with
-                the final product.
-              </p>
-              <p className="mt-3 max-w-xl">
-                If you are looking for a team of professionals who are
-                dedicated, creative, and reliable, look no further. Contact us
-                today to learn more about how we can help you achieve your
-                online goals.
-              </p>
-              <p className="mt-3 max-w-xl">
-                We look forward to working with you!{" "}
-                <span role="img" aria-label="Smile">
-                  😊
-                </span>
-              </p>
-            </div>
-            <div className="flex-none mt-6 md:mt-0 lg:mt-6">
-              {/* socials icon */}
+      <section className="py-14">
+        <div className="mx-auto max-w-7xl px-5 md:px-10 ">
+          <div className="max-w-screen-xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
+              <div className="aspect-w-16 aspect-h-9 lg:aspect-none">
+                <img
+                  className="w-full object-cover rounded-xl"
+                  src="/untitled2.png"
+                  alt="Image Description"
+                />
+              </div>
+
               <div>
-                <a
-                  href="#"
-                  className="text-blue-500 hover:text-blue-600 transition-colors duration-300"
-                >
-                  Facebook
-                </a>
-                <span className="mx-2">•</span>
-                <a
-                  href="#"
-                  className="text-blue-500 hover:text-blue-600 transition-colors duration-300"
-                >
-                  Twitter
-                </a>
-                <span className="mx-2">•</span>
-                <a
-                  href="#"
-                  className="text-blue-500 hover:text-blue-600 transition-colors duration-300"
-                >
-                  Instagram
-                </a>
+                <h2 className=" font-semibold text-3xl md:text-5xl md:leading-tight">
+                  About us
+                </h2>
+                <div className="flex gap-x-5 ms-1">
+                  <div className="grow pt-0.5 pb-8 sm:pb-12">
+                    <p className="text-sm lg:text-base text-neutral-400">
+                      We develop digital products or services that address the
+                      needs and preferences of your target audience.
+                    </p>
+                    <p className="mt-3 ">
+                      We are a team of developers, designers, and marketers who
+                      are dedicated to creating amazing websites for our
+                      clients. We believe that a website should be more than
+                      just a pretty face; it should be a powerful tool that
+                      helps you achieve your goals.
+                    </p>
+                    <p className="mt-3">
+                      Whether you need a simple blog, an e-commerce site, or a
+                      custom-built web application, we have the skills and
+                      experience to bring your vision to life. Let us help you
+                      take your online presence to the next level!
+                    </p>
+                    <p className="mt-3 ">
+                      We are passionate about what we do, and we are committed
+                      to providing the best possible service to our clients. We
+                      take the time to understand your needs and goals, and we
+                      work closely with you every step of the way to ensure that
+                      you are happy with the final product.
+                    </p>
+                    <p className="mt-3">
+                      If you are looking for a team of professionals who are
+                      dedicated, creative, and reliable, look no further.
+                      Contact us today to learn more about how we can help you
+                      achieve your online goals.
+                    </p>
+                    <p className="mt-3">
+                      We look forward to working with you!{" "}
+                      <span role="img" aria-label="Smile">
+                        😊
+                      </span>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -81,37 +68,18 @@ const AboutPage = () => {
       </section>
 
       {/* our process */}
-      <section className="pt-14">
-        <div className="mx-auto max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
-          {/* <div className="mx-auto w-full max-w-3xl">
-            <div className="text-center">
-              <p className="uppercase text-[#1353fe]">6 easy steps</p>
-              <h2 className="text-3xl font-semibold capitalize md:text-5xl">
-                How it{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4F46E5] to-[#E114E5]">
-                  works
-                </span>
-              </h2>
-              <div className="mx-auto mb-8 mt-4 max-w-[528px] md:mb-12 lg:mb-16">
-                <p className="text-[#636262]">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                  aliquam,purus sit amet luctus magna fringilla urna
-                </p>
-              </div>
-            </div>
-          </div> */}
-
+      <section className="lg:py-10">
+        <div className="mx-auto max-w-7xl px-5 md:px-10 ">
           <div className="max-w-screen-xl  mx-auto">
             <div className="max-w-3xl mb-10 lg:mb-14">
-              <p className="uppercase text-[#1353fe]">6 easy steps</p>
+              <p className="uppercase text-[#1353fe]">4 easy steps</p>
               <h2 className=" font-semibold text-3xl md:text-5xl md:leading-tight">
                 Our approach
               </h2>
               <p className="mt-1 text-neutral-400">
-                This profound insight guides our comprehensive strategy — from
-                meticulous research and strategic planning to the seamless
-                execution of brand development and website or product
-                deployment.
+                Thorough strategy—from careful research and strategic planning
+                to the smooth execution of brand development and the launch of
+                websites or products.
               </p>
             </div>
 
@@ -143,10 +111,11 @@ const AboutPage = () => {
                   <div className="grow pt-0.5 pb-8 sm:pb-12">
                     <p className="text-sm lg:text-base text-neutral-400">
                       <span className="text-blue-500">
-                        Market Research and Analysis: {""}
+                        Market Research and Planning: {""}
                       </span>
-                      Identify your target audience and understand their needs,
-                      preferences, and behaviors.
+                      Identify your target audience, then create a project plan
+                      defining the website&apos;s structure, content, and
+                      functionalities.
                     </p>
                   </div>
                 </div>
@@ -163,10 +132,11 @@ const AboutPage = () => {
                   <div className="grow pt-0.5 pb-8 sm:pb-12">
                     <p className="text-sm lg:text-base text-neutral-400">
                       <span className="text-blue-500">
-                        Product Development and Testing: {""}
+                        Product Design and Development: {""}
                       </span>
-                      Develop digital products or services that address the
-                      needs and preferences of your target audience.
+                      Create and refine the product&apos;s design, focusing on
+                      usability, aesthetics, and functionality to ensure it
+                      meets user needs and business goals.
                     </p>
                   </div>
                 </div>
@@ -183,10 +153,10 @@ const AboutPage = () => {
                   <div className="grow pt-0.5 pb-8 sm:pb-12">
                     <p className="text-sm md:text-base text-neutral-400">
                       <span className="text-blue-500">
-                        Marketing and Promotion: {""}
+                        Product Testing: {""}
                       </span>
-                      Develop a comprehensive marketing strategy to promote your
-                      digital products or services.
+                      We rigorously test the website for responsiveness,
+                      cross-browser compatibility, and functionality.
                     </p>
                   </div>
                 </div>
@@ -202,11 +172,12 @@ const AboutPage = () => {
 
                   <div className="grow pt-0.5 pb-8 sm:pb-12">
                     <p className="text-sm md:text-base text-neutral-400">
-                      <span className="text-gray-800">
+                      <span className="text-blue-500">
                         Launch and Optimization: {""}
                       </span>
                       Launch your digital products or services to the market,
-                      closely monitoring their performance and user feedback.
+                      closely monitoring their performance and SEO to drive
+                      better results.
                     </p>
                   </div>
                 </div>

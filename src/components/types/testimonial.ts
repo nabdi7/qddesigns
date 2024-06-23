@@ -1,4 +1,4 @@
-export type Project = {
+export type Testimonial = {
   id: number;
   name: string;
   href: string;

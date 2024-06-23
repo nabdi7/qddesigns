@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { projects } from "./projectsData";
 import Image from "next/image";
+import Link from "next/link";
 
 const Projects: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -48,13 +49,15 @@ const Projects: React.FC = () => {
                 alt={project.title}
                 className="w-full h-56 object-cover"
               /> */}
-              <Image
-                src={project.image}
-                alt={project.title}
-                width={500}
-                height={500}
-                className="w-full h-56 object-cover"
-              />
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  width={500}
+                  height={500}
+                  className="w-full h-56 object-cover"
+                />
+              </a>
             </div>
             <div className="mt-6">
               <h4 className="text-lg font-semibold">{project.title}</h4>
@@ -65,12 +68,12 @@ const Projects: React.FC = () => {
         ))}
       </div>
       <div className="mt-8 flex justify-center space-x-4">
-        <a
+        <Link
           href="/projects"
           className="inline-block py-2 px-4 font-medium bg-gradient-to-r from-[#4F46E5] to-[#E114E5] text-white duration-150 hover:bg-gray-100 active:bg-gray-200 rounded-full"
         >
           See more
-        </a>
+        </Link>
       </div>
     </section>
   );

@@ -3,6 +3,8 @@ import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
+  // socials icons
+  
   return (
     <footer className="max-container mb-5 py-20 ">
       <div className="padding-container flex w-full flex-col gap-12 md:px-8 lg:px-16 xl:px-32 2xl:px-64">

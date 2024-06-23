@@ -1,12 +1,12 @@
 import React from 'react'
 import About from '@/components/about/AboutPage'
-import Team from '@/components/team/Team'
+import Cta from '@/components/cta/Cta'
 
 const page = () => {
   return (
     <div>
       <About />
-      <Team />
+      <Cta />
     </div>
   )
 }
