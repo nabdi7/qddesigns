@@ -16,60 +16,21 @@ body {
 
 
 @layer utilities {
-  /* Fonts */
-  .regular-64 {
-    @apply text-[64px] font-[400] leading-[120%];
-  }
-
-  .regular-40 {
-    @apply text-[40px] font-[400] leading-[120%];
-  }
-
-  .regular-32 {
-    @apply text-[32px] font-[400];
-  }
-
-  .regular-24 {
-    @apply text-[24px] font-[400];
-  }
-
-  .regular-20 {
-    @apply text-[20px] font-[400];
-  }
-
-  .regular-18 {
-    @apply text-[18px] font-[400];
-  }
-
-  .regular-16 {
-    @apply text-[16px] font-[400];
-  }
-
-  .regular-14 {
-    @apply text-[14px] font-[400];
-  }
-
-  .medium-14 {
-    @apply text-[14px] font-[600];
-  }
-
-  .bold-88 {
-    @apply text-[88px] font-[700] leading-[120%];
-  }
-  .bold-68 {
-    @apply text-[68px] font-[700] leading-[120%];
-  }
-  .bold-52 {
-    @apply text-[52px] font-[700] leading-[120%];
-  }
-
-
   /* Buttons */
   .btn {
     @apply block py-2 px-4 text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none
   }
+  .btn-primary {
+    @apply block py-2 px-4 text-white font-medium bg-green-100 duration-150 hover:bg-green-200 active:bg-gray-700 rounded-lg shadow-lg hover:shadow-none
+  }
+  .btn-secondary {
+    @apply block py-2 px-4 text-white font-medium bg-gray-600 duration-150 hover:bg-gray-500 active:bg-gray-700 rounded-lg shadow-lg hover:shadow-none
+  }
+  .btn-third {
+    @apply block py-2 px-4 text-gray-700 hover:text-gray-500 font-medium duration-150 active:bg-gray-100 border rounded-lg
+  }
   .btn_white { 
-    @apply border-white bg-gray-700 px-8 py-3 rounded-full text-white hover:bg-gray-900 hover:text-white
+    @apply border-white bg-green-100 px-8 py-3 rounded-full text-white hover:bg-green-200 hover:text-white
   }
   .btn_outline { 
     @apply border-gray-900  px-8 py-3 rounded-full hover:bg-gray-900 hover:text-white

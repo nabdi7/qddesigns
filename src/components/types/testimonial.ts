@@ -1,7 +1,6 @@
-export type Testimonial = {
-  id: number;
-  name: string;
-  href: string;
-  image: string;
-  imageLight: string;
-};
+export type Testimonials = {
+    avatar: string;
+    name: string;
+    rating: number;
+    quote: string;
+  };

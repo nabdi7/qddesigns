@@ -1,12 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import About2 from "./About2";
+import About3 from "./About3";
 
 const About = () => {
   return (
     <>
       <About2 />
-      <section className=" flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20">
+      <About3 />
+      {/* <section className=" flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20">
         <div className="custom-screen flex flex-col gap-x-12 justify-between xl:flex-row lg:flex-row md:flex-col md:items-center">
           <div className="flex-none w-full md:max-w-xl">
             <Image
@@ -33,7 +35,7 @@ const About = () => {
             </ul>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

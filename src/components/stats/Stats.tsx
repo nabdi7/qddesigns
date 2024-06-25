@@ -1,24 +1,6 @@
 "use client";
 import React from "react";
-
-const stats = [
-  {
-    data: "95K+",
-    desc: "Active websites around the world.",
-  },
-  {
-    data: "120M+",
-    desc: "API requests per day, and 6,000 requests a second.",
-  },
-  {
-    data: "25B+",
-    desc: "Tracked pageviews per month.",
-  },
-  {
-    data: "70%",
-    desc: "most people are using split in their website.",
-  },
-];
+import stats from "./index";
 
 const Stats = () => (
   <section className="custom-screen text-gray-600 gap-20 py-10 pb-32 md:gap-28 lg:py-20">

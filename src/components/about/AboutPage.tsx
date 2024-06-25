@@ -76,7 +76,7 @@ const AboutPage = () => {
               <h2 className=" font-semibold text-3xl md:text-5xl md:leading-tight">
                 Our approach
               </h2>
-              <p className="mt-1 text-neutral-400">
+              <p className="mt-1 text-sm lg:text-base text-neutral-400">
                 Thorough strategy—from careful research and strategic planning
                 to the smooth execution of brand development and the launch of
                 websites or products.
