@@ -1,20 +1,20 @@
 const stats = [
-    {
-      data: "95K+",
-      desc: "Active websites around the world.",
-    },
-    {
-      data: "120M+",
-      desc: "API requests per day, and 6,000 requests a second.",
-    },
-    {
-      data: "25B+",
-      desc: "Tracked pageviews per month.",
-    },
-    {
-      data: "70%",
-      desc: "most people are using split in their website.",
-    },
-  ];
+  {
+    data: "10+",
+    desc: "Projects successfully delivered with innovative solutions.",
+  },
+  {
+    data: "500+",
+    desc: "Hours dedicated to client projects, ensuring quality.",
+  },
+  {
+    data: "1K+",
+    desc: "Social media engagements driven for clients.",
+  },
+  {
+    data: "99%",
+    desc: "Happy clients satisfied with our services.",
+  },
+];
 
 export default stats;

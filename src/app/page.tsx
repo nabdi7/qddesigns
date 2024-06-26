@@ -8,7 +8,7 @@ import Testimonials from "@/components/testimonial/Testimonial";
 import Projects from "@/components/projects";
 import Cta from "@/components/cta/Cta"
 // import Brands from "@/components/brands";
-
+import GradientWrapper from "@/components/GradientWrapper"; 
 
 export default function Home() {
   return (
@@ -16,9 +16,11 @@ export default function Home() {
       <Landing />
       <About />
       <Packages />
-      <Stats />
-      {/* <Clients /> */}
-      <Testimonials />
+      <GradientWrapper >
+        <Stats />
+        {/* <Clients /> */}
+        <Testimonials />
+      </GradientWrapper>
       <Projects />
       <Cta />
       {/* <Brands /> */}

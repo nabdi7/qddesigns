@@ -2,7 +2,7 @@
 import { testimonials } from "./index";
 import { Testimonials } from "../types/testimonial";
 
-const Testimonial = () => { 
+const Testimonial = () => {
   const renderStars = (rating: number) => {
     const stars = [];
 
@@ -27,16 +27,15 @@ const Testimonial = () => {
     return stars;
   };
   return (
-    <section className="py-14">
+    <section className="lg:py-14">
       <div className="max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl sm:text-center md:mx-auto">
           <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-            See what others saying about us
+            What our clients say about us
           </h3>
           <p className="mt-3 text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est
-            hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna
-            lorem, euismod volutpat arcu volutpat et.
+            Hear from our satisfied clients about their experiences working with
+            us. We strive to deliver exceptional results.
           </p>
         </div>
         <div className="mt-12">
@@ -68,6 +67,7 @@ const Testimonial = () => {
           </ul>
         </div>
       </div>
+      {/* <div className="border-y py-14"></div> */}
     </section>
   );
 };

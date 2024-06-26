@@ -13,11 +13,12 @@ const Projects: React.FC = () => {
       : projects.filter((project) => project.category === selectedCategory);
 
   return (
-    <section className="custom-screen text-gray-600 gap-20 py-10 pb-32 md:gap-28 lg:py-20">
+    
+    <section className="custom-screen text-gray-600 gap-20 py-14 pb-32 md:gap-28 lg:py-20">
       <div className="max-w-3xl xl:mx-auto xl:text-center md:text-center md:mx-auto">
         <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
           A glimpse into our{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4F46E5] to-[#E114E5]">
+          <span className="text-transparent bg-clip-text bg-indigo-600">
             projects
           </span>
         </h3>
@@ -31,7 +32,7 @@ const Projects: React.FC = () => {
             key={category}
             className={`px-4 py-2 rounded-full ${
               selectedCategory === category
-                ? "bg-gradient-to-r from-[#4F46E5] to-[#E114E5] text-white"
+                ? "bg-indigo-600 text-white"
                 : "bg-gray-200 text-gray-700"
             }`}
             onClick={() => setSelectedCategory(category)}
@@ -59,10 +60,9 @@ const Projects: React.FC = () => {
                 />
               </a>
             </div>
-            <div className="mt-6">
+            <div className="mt-4 lg:pb-10 pb-5">
               <h4 className="text-lg font-semibold">{project.title}</h4>
               <p className="mt-2 text-gray-600">{project.description}</p>
-              {/* <p className="mt-2 text-sm text-gray-500">{project.category}</p> */}
             </div>
           </div>
         ))}
@@ -70,7 +70,7 @@ const Projects: React.FC = () => {
       <div className="mt-8 flex justify-center space-x-4">
         <Link
           href="/projects"
-          className="inline-block py-2 px-4 font-medium bg-gradient-to-r from-[#4F46E5] to-[#E114E5] text-white duration-150 hover:bg-gray-100 active:bg-gray-200 rounded-full"
+          className="inline-block py-2 px-4 font-medium bg-green-100 text-white duration-150 hover:bg-gray-100 active:bg-gray-200 rounded-full"
         >
           See more
         </Link>

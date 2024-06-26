@@ -2,7 +2,6 @@ import React from 'react'
 import Menu from '@/components/menu/Menu'
 import Link from 'next/link' 
 import Image from 'next/image'
-import Button from '../button/Button'
 
 const Navbar = () => {
   return (
@@ -25,13 +24,12 @@ const Navbar = () => {
           </div>
           {/* button */}
           <div className='hidden lg:flex items-center gap-8 '>
-            <Button 
-              type='button' 
-              title='Get A Quote'
-              variant='btn_white' 
-              shape='rectangle' 
-              href='/getquote'
-            />
+            <Link
+              href="/contact"
+              className="btn-primary"
+            >
+              Get a quote
+            </Link>
           </div>
         </div>
       </div>

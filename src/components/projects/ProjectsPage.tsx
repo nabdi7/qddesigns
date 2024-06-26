@@ -81,7 +81,6 @@ const ProjectsPage: React.FC = () => {
             <div className="mt-4 lg:pb-10 pb-5">
               <h4 className="text-lg font-semibold">{project.title}</h4>
               <p className="mt-2 text-gray-600">{project.description}</p>
-              {/* <p className="mt-2 text-sm text-gray-500">{project.category}</p> */}
             </div>
           </div>
         ))}

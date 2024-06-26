@@ -9,8 +9,8 @@ const Stats = () => (
         Get your site to the top of Google Search
       </h3>
       <p className="mt-3">
-        We distribute your visitors to your site across different geographical
-        locations.
+        We optimize your site for top Google rankings with effective SEO
+        strategies.
       </p>
     </div>
     <div className="mt-12">

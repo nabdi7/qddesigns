@@ -13,13 +13,13 @@ export const testimonials: Testimonials[] = [
       name: "Angela stian",
       rating: 5,
       quote:
-        "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+        "I had a great experience working with Najib.",
     },
     {
       avatar: "https://randomuser.me/api/portraits/men/86.jpg",
       name: "Bright Smiles",
       rating: 5,
       quote:
-        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain. There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.",
+        "Highly recommend QD Web Designs to anyone. Najib was very professional and responsive. He was able to create a website that was exactly what I wanted.",
     },
   ];

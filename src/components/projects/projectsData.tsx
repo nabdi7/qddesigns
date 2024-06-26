@@ -17,11 +17,11 @@ export const projects: Project[] = [
     url: "https://www.brightsmileshomechildcare.com",
   },
   {
-    title: "Hadiya Childcare",
-    description: "A website for Hadiya Childcare, supporting holistic child development.",
-    image: "/hadiya-transparent.png",
-    category: "Websites",
-    url: "https://www.hadiyachildcare.com",
+    title: "Halal Zone",
+    description: "An app that helps users find authentic halal food with ease based on their location.",
+    image: "/restaurant.png",
+    category: "Apps",
+    url: "",
   },
   
   
