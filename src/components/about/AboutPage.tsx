@@ -1,8 +1,6 @@
 import React from "react";
-
+import Image from "next/image";
 const AboutPage = () => {
-  // icons
-
   return (
     <>
       <section className="py-14">
@@ -10,10 +8,12 @@ const AboutPage = () => {
           <div className="max-w-screen-xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
               <div className="aspect-w-16 aspect-h-9 lg:aspect-none">
-                <img
+                <Image
                   className="w-full object-cover rounded-xl"
                   src="/untitled2.png"
                   alt="Image Description"
+                  width="500"
+                  height="500"
                 />
               </div>
 
@@ -72,7 +72,7 @@ const AboutPage = () => {
         <div className="mx-auto max-w-7xl px-5 md:px-10 ">
           <div className="max-w-screen-xl  mx-auto">
             <div className="max-w-3xl mb-10 lg:mb-14">
-              <p className="uppercase text-[#1353fe]">4 easy steps</p>
+              <p className="uppercase text-blue-500">4 easy steps</p>
               <h2 className=" font-semibold text-3xl md:text-5xl md:leading-tight">
                 Our approach
               </h2>
@@ -183,8 +183,8 @@ const AboutPage = () => {
                 </div>
 
                 <a
-                  className="group inline-flex items-center gap-x-2 py-2 px-3 bg-indigo-500 font-medium text-sm text-neutral-800 rounded-full focus:outline-none"
-                  href="#"
+                  className="group inline-flex items-center gap-x-2 py-2 px-4 bg-blue-500 font-medium text-sm text-white rounded-full focus:outline-none"
+                  href="tel:+12068833462"
                 >
                   <svg
                     className="flex-shrink-0 size-4"

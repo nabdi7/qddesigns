@@ -1,5 +1,6 @@
 import React from "react";
 import plans from "./index";
+import Link from "next/link";
 
 const Pricing = () => {
   return (
@@ -44,6 +45,21 @@ const Pricing = () => {
                 </li>
                 {item.features.map((featureItem, idx) => (
                   <li key={idx} className="flex items-center gap-5">
+                  {featureItem.isNegative ? (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5 text-indigo-600"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M2.25 7.5C2.25 7.22386 2.47386 7 2.75 7H12.25C12.5261 7 12.75 7.22386 12.75 7.5C12.75 7.77614 12.5261 8 12.25 8H2.75C2.47386 8 2.25 7.77614 2.25 7.5Z"
+                        fill="currentColor"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                  ) : (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-5 w-5 text-indigo-600"
@@ -56,12 +72,13 @@ const Pricing = () => {
                         clipRule="evenodd"
                       ></path>
                     </svg>
-                    {featureItem}
-                  </li>
+                  )}
+                  {featureItem.name}
+                </li>
                 ))}
-                <button className="px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700">
+                <Link href="/contact" className="w-full text-center btn-primary">
                   Get Started
-                </button>
+                </Link>
               </ul>
             </div>
           ))}

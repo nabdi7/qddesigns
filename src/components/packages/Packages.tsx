@@ -1,6 +1,6 @@
 import React from "react";
 import features from "./index";
-
+import Link from "next/link";
 const Packages = () => {
   
   return (
@@ -27,7 +27,7 @@ const Packages = () => {
                     {item.title}
                   </h4>
                   <p>{item.desc}</p>
-                  <a
+                  <Link
                     href={item.href}
                     className="text-sm text-indigo-600 duration-150 hover:text-indigo-400 font-medium inline-flex items-center gap-x-1"
                   >
@@ -44,7 +44,7 @@ const Packages = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </li>
             ))}

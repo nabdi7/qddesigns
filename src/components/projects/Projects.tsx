@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { projects } from "./projectsData";
 import Image from "next/image";
@@ -13,7 +13,6 @@ const Projects: React.FC = () => {
       : projects.filter((project) => project.category === selectedCategory);
 
   return (
-    
     <section className="custom-screen text-gray-600 gap-20 py-14 pb-32 md:gap-28 lg:py-20">
       <div className="max-w-3xl xl:mx-auto xl:text-center md:text-center md:mx-auto">
         <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
@@ -68,10 +67,7 @@ const Projects: React.FC = () => {
         ))}
       </div>
       <div className="mt-8 flex justify-center space-x-4">
-        <Link
-          href="/projects"
-          className="inline-block py-2 px-4 font-medium bg-green-100 text-white duration-150 hover:bg-gray-100 active:bg-gray-200 rounded-full"
-        >
+        <Link href="/projects" className="btn_white">
           See more
         </Link>
       </div>

@@ -5,14 +5,14 @@ export const projects: Project[] = [
   {
     title: "Almaas Childcare",
     description: "A website for Almaas Childcare, offering nurturing daycare services located in Kent, WA.",
-    image: "/almaasCover.png",
+    image: "/almaasweb.png",
     category: "Websites",
     url: "https://www.almaaschildcare.com",
   },
   {
     title: "Bright Smiles Childcare",
     description: "A website for Bright Smiles Childcare, emphasizing safety and care for young children.",
-    image: "/brightsmiles.png",
+    image: "/brightsmilesweb.png",
     category: "Websites",
     url: "https://www.brightsmileshomechildcare.com",
   },

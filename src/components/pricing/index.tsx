@@ -1,51 +1,57 @@
 const plans = [
-    {
-      name: "Standard",
-      desc: "We will create a brochure style website based off of a theme.",
-      price: 700,
-      isMostPop: false,
-      features: [
-        "1-5 Pages",
-        "Basic Design",
-        "SEO optimization",
-        "Basic website analytics",
-        "QA testing of the site",
-        "CMS setup",
-      ],
-    },
-    {
-      name: "Premium",
-      desc: "We will create a custom designed website from scratch.",
-      price: 1500,
-      isMostPop: true,
-      features: [
-        "1-7 Pages",
-        "Custom Design",
-        "SEO optimization",
-        "Advanced analytics",
-        "QA testing of the site",
-        "CMS setup",
-        "Social Media Content",
-        "Business Flyer",
-      ],
-    },
-    {
-      name: "Enterprise",
-      desc: "We will create an enterprise level custom designed website from scratch.",
-      price: "Let's Talk",
-      isMostPop: false,
-      features: [
-        "Development of up to 20 pages",
-        "Custom Design",
-        "SEO optimization",
-        "Advanced analytics",
-        "QA testing of the site",
-        "E-commerce Integration",
-        "CMS setup",
-        "Social Media Content",
-      ],
-    },
-  ];
-  
-  export default plans;
-  
+  {
+    name: "Standard",
+    desc: "We will create a brochure style website based off of a theme.",
+    price: 700,
+    isMostPop: false,
+    features: [
+      { name: "1-5 Pages", isNegative: false },
+      { name: "Basic Design", isNegative: false },
+      { name: "SEO optimization", isNegative: false },
+      { name: "Basic website analytics", isNegative: false },
+      { name: "QA testing of the site", isNegative: false },
+      { name: "Business flyer", isNegative: true },
+      { name: "Business logo", isNegative: true },
+      { name: "CMS setup", isNegative: true },
+    ],
+  },
+  {
+    name: "Premium",
+    desc: "We will create a custom designed website from scratch.",
+    price: 1500,
+    isMostPop: true,
+    features: [
+      { name: "1-7 Pages", isNegative: false },
+      { name: "Custom Design", isNegative: false },
+      { name: "SEO optimization", isNegative: false },
+      { name: "Advanced analytics", isNegative: false },
+      { name: "QA testing of the site", isNegative: false },
+      { name: "CMS setup", isNegative: false },
+      { name: "Business Flyer", isNegative: false },
+      { name: "Business logo", isNegative: false },
+      { name: "Social Media Content", isNegative: true },
+      { name: "Content creation", isNegative: true },
+    ],
+  },
+  {
+    name: "Enterprise",
+    desc: "We will create an enterprise level custom designed website & app from scratch.",
+    price: "Let's Talk",
+    isMostPop: false,
+    features: [
+      { name: "Web & App development", isNegative: false },
+      { name: "Custom Design", isNegative: false },
+      { name: "SEO optimization", isNegative: false },
+      { name: "Advanced analytics", isNegative: false },
+      { name: "QA testing of the site", isNegative: false },
+      { name: "E-commerce Integration", isNegative: false },
+      { name: "CMS setup", isNegative: false },
+      { name: "Social Media Content", isNegative: false },
+      { name: "Content creation", isNegative: false },
+      { name: "Business Flyer", isNegative: false },
+      { name: "Business logo", isNegative: false },
+    ],
+  },
+];
+
+export default plans;

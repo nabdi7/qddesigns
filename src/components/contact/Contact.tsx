@@ -72,7 +72,7 @@ const Contact = () => {
                     <input
                       type="text"
                       required
-                      className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                      className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-green-100 shadow-sm rounded-lg"
                     />
                   </div>
                   <div>
@@ -80,7 +80,7 @@ const Contact = () => {
                     <input
                       type="email"
                       required
-                      className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                      className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-green-100 shadow-sm rounded-lg"
                     />
                   </div>
                   <div>
@@ -96,7 +96,7 @@ const Contact = () => {
                             />
                             <label
                               htmlFor={`service-${idx}`}
-                              className="relative flex w-5 h-5 bg-white peer-checked:bg-indigo-600 rounded-md border ring-offset-2 ring-indigo-600 duration-150 peer-active:ring cursor-pointer after:absolute after:inset-x-0 after:top-[3px] after:m-auto after:w-1.5 after:h-2.5 after:border-r-2 after:border-b-2 after:border-white after:rotate-45"
+                              className="relative flex w-5 h-5 bg-white peer-checked:bg-green-100 rounded-md border ring-offset-2 ring-green-100 duration-150 peer-active:ring cursor-pointer after:absolute after:inset-x-0 after:top-[3px] after:m-auto after:w-1.5 after:h-2.5 after:border-r-2 after:border-b-2 after:border-white after:rotate-45"
                             ></label>
                           </div>
                           <label
@@ -113,7 +113,7 @@ const Contact = () => {
                     <label className="font-medium">Message</label>
                     <textarea
                       required
-                      className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                      className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-green-100 shadow-sm rounded-lg"
                     ></textarea>
                   </div>
                   <button className="w-full px-4 py-2 text-white font-medium bg-green-100 hover:bg-green-200 active:bg-gray-7000 rounded-lg duration-150">

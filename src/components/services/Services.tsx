@@ -2,6 +2,20 @@ import React from "react";
 
 const services = [
   {
+    title: "Website Development",
+    description:
+      "Our digital marketing strategies help you reach a larger audience and increase conversions. We use a variety of tactics including SEO, PPC, content marketing, and social media marketing to drive traffic and engagement.",
+    icon: "📈",
+    types: ["SEO", "PPC", "Content Marketing", "Social Media Marketing"],
+  },
+  {
+    title: "App Development",
+    description:
+      "Our digital marketing strategies help you reach a larger audience and increase conversions. We use a variety of tactics including SEO, PPC, content marketing, and social media marketing to drive traffic and engagement.",
+    icon: "📈",
+    types: ["SEO", "PPC", "Content Marketing", "Social Media Marketing"],
+  },
+  {
     title: "Branding",
     description:
       "Our branding service empowers businesses to develop a distinctive identity that resonates with their target audience and sets them apart from the competition. We craft captivating logos, sensory color palettes, and compelling brand narratives that create a lasting impact on customers. With our comprehensive brand guidelines, your brand identity remains consistent across all platforms, leaving a memorable impression.",
@@ -28,6 +42,18 @@ const services = [
     types: ["Keyword Research", "On-Page SEO", "Off-Page SEO", "Technical SEO"],
   },
   {
+    title: "Quality Assurance",
+    description:
+      "Get professional business advice to streamline your processes and boost growth. Our consulting services cover a range of areas including business strategy, operations, and technology.",
+    icon: "💼",
+    types: [
+      "Business Strategy",
+      "Operations Consulting",
+      "Technology Consulting",
+      "Financial Consulting",
+    ],
+  },
+  {
     title: "Graphic Design",
     description:
       "Our creative designers will provide visually stunning graphics that captivate your audience. From social media graphics to print design, we cover all your graphic design needs.",
@@ -40,7 +66,7 @@ const services = [
     ],
   },
   {
-    title: "Consulting",
+    title: "Animation",
     description:
       "Get professional business advice to streamline your processes and boost growth. Our consulting services cover a range of areas including business strategy, operations, and technology.",
     icon: "💼",
