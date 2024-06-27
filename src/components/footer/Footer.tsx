@@ -103,93 +103,90 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className="max-container mb-5 py-20 ">
+    <footer className="max-container mb-5 lg:py-28 py-14 ">
       <div className="custom-screen flex w-full flex-col max-w-screen-xl">
-        <div className=" gap-8  py-6 lg:py-8 lg:grid-cols-4  ">
-          <div className="flex flex-col items-start md:flex-row md:items-start md:gap-8">
-            <Link href="/" className="mb-4 md:mb-0 md:mr-12">
+        <div className="grid grid-cols-1 gap-8  py-6 lg:py-8 lg:grid-cols-4 md:grid-cols-2">
+          <div className="space-y-4">
+            <Link href="/" className="md:mr-12">
               <Image src="/logo.png" alt="logo" width={150} height={150} />
             </Link>
+          </div>
+          <div className="space-y-4">
+            <h2 className="text-md font-semibold text-gray-900 uppercase">
+              Our Guidelines
+            </h2>
+            <ul className="regular-16 flex flex-col gap-1 text-gray-30 space-y-3">
+              <li>
+                <Link href="/about" className="hover:text-green-100">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link href="/packages" className="hover:text-green-100">
+                  Packages
+                </Link>
+              </li>
+              <li>
+                <Link href="/services" className="hover:text-green-100">
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/projects" className="hover:text-green-100">
+                  Projects
+                </Link>
+              </li>
+            </ul>
+          </div>
 
-            <div className="flex flex-wrap gap-8 sm:justify-between md:flex-1">
-              <div className="flex flex-col gap-2">
-                <h2 className="text-md font-semibold text-gray-900 uppercase">
-                  Our Guidelines
-                </h2>
-                <ul className="regular-16 flex flex-col gap-1 text-gray-30 space-y-3">
-                  <li>
-                    <Link href="/about" className="hover:text-green-100">
-                      About
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/packages" className="hover:text-green-100">
-                      Packages
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services" className="hover:text-green-100">
-                      Services
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/projects" className="hover:text-green-100">
-                      Projects
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="flex flex-col gap-2">
-                <h2 className="text-md font-semibold text-gray-900 uppercase">
-                  Get in Touch
-                </h2>
-                <ul className="flex flex-col gap-1 text-gray-30 space-y-3">
-                  {contactMethods.map((method, index) => (
-                    <li key={index} className="flex items-center">
-                      <a
-                        href={method.link}
-                        className="hover:underline hover:text-green-100"
-                      >
-                        {method.contact}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-                <ul className="flex gap-2 mt-2">
-                  {contactIcons.map((method, index) => (
-                    <li key={index} className=" items-center">
-                      <a
-                        href={method.url}
-                        className="hover:underline hover:text-green-100"
-                      >
-                        {method.icon}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="flex flex-col gap-2">
-                <h2 className="text-md font-semibold text-gray-900 uppercase">
-                  Subscribe
-                </h2>
-                <p className="text-gray-30">Dont miss any updates</p>
-                <form className="flex flex-col items-start">
-                  <input
-                    type="email"
-                    id="subscribe"
-                    placeholder="Enter email"
-                    className="mb-2 p-2 border border-gray-300 rounded focus:border-green-100 focus:outline-none"
-                  />
-                  <button type="submit" className="btn-primary">
-                    Subscribe
-                  </button>
-                </form>
-              </div>
-            </div>
+          <div className="space-y-4 pt-2">
+            <h2 className="text-md font-semibold text-gray-900 uppercase">
+              Get in Touch
+            </h2>
+            <ul className="flex flex-col gap-1 text-gray-30 space-y-3">
+              {contactMethods.map((method, index) => (
+                <li key={index} className="flex items-center">
+                  <a
+                    href={method.link}
+                    className="hover:underline hover:text-green-100"
+                  >
+                    {method.contact}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <ul className="flex flex-row space-x-3">
+              {contactIcons.map((method, index) => (
+                <li key={index} className=" items-center">
+                  <a
+                    href={method.url}
+                    className="hover:underline hover:text-green-100"
+                  >
+                    {method.icon}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="space-y-4 pt-2">
+            <h2 className="text-md font-semibold text-gray-900 uppercase">
+              Subscribe
+            </h2>
+            <p className="text-gray-30">Dont miss any updates</p>
+            <form className="flex flex-col items-start">
+              <input
+                type="email"
+                id="subscribe"
+                placeholder="Enter email"
+                className="mb-2 p-2 border border-gray-300 rounded focus:border-green-100 focus:outline-none"
+              />
+              <button type="submit" className="btn-primary">
+                Subscribe
+              </button>
+            </form>
           </div>
         </div>
-        <div className="border bg-gray-20 w-full my-4" />
+        <div className="border bg-gray-20 w-full my-6" />
 
         {/* Copyright */}
         <div className="regular-14 w-full text-center text-gray-30">

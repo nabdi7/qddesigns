@@ -19,7 +19,7 @@ const Packages = () => {
           <ul className="grid gap-y-8 gap-x-12 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((item, idx) => (
               <li key={idx} className="flex gap-x-4">
-                <div className="flex-none w-12 h-12 bg-indigo-600 text-white rounded-lg flex items-center justify-center">
+                <div className="flex-none w-12 h-12 bg-green-100 text-white rounded-lg flex items-center justify-center">
                   {item.icon}
                 </div>
                 <div className="space-y-3">
