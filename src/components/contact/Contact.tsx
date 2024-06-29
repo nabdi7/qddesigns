@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import contactMethods, { socials } from "./index";
+import Wave from "../waves";
 
 const Contact = () => {
   const servicesItems = [
@@ -11,58 +12,65 @@ const Contact = () => {
   ];
 
   return (
-    <section className="py-14">
-      <div className="mx-auto px-4 text-gray-600 md:px-8">
-        <div className="max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
-            {contactMethods.map((method, index) => (
-              <a
-                key={index}
-                className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition"
-                href={method.link}
-              >
-                <div className="p-4 md:p-5">
-                  <div className="flex">
-                    {method.icon}
-                    <div className="grow ms-5">
-                      <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-neutral-400">
-                        {method.title} 
-                      </h3>
-                      <p className="text-sm text-gray-500 dark:text-neutral-500">
-                        {method.contact || method.link} 
-                      </p>
+    <>
+      <Wave />
+      <section className="py-8 lg:py-14">
+        <div className="relative max-w-xl mx-auto sm:text-center">
+          <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+            Contact Us
+          </h3>
+        </div>
+        <div className="mx-auto px-4 text-gray-600 md:px-8">
+          <div className="max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
+              {contactMethods.map((method, index) => (
+                <a
+                  key={index}
+                  className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition"
+                  href={method.link}
+                >
+                  <div className="p-4 md:p-5">
+                    <div className="flex">
+                      {method.icon}
+                      <div className="grow ms-5">
+                        <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-neutral-400">
+                          {method.title}
+                        </h3>
+                        <p className="text-sm text-gray-500 dark:text-neutral-500">
+                          {method.contact || method.link}
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
-            ))}
-          </div>
-          <div className="lg:mt-14 mt-8 grid items-center lg:grid-cols-2 gap-6 lg:gap-16">
-            <div className="order-1 lg:order-2 py-4 lg:py-0">
-              <h3 className="font-semibold text-gray-800 text-xl">Message</h3>
-              <p className="mt-2 lg:text-lg text-gray-500">
-                Please feel free to call or email us, or use our contact form
-                to get in touch with us.
-              </p>
-              <p className="mt-1 lg:text-lg text-gray-500">
-                We look forward to hearing from you!
-              </p>
-              <div className="flex gap-3 mt-4">
-                {socials
-                  .filter((method) => method.socialIcon)
-                  .map((social, index) => (
-                    <a
-                      key={index}
-                      href={social.url}
-                      target="_blank"
-                      className="text-gray-500 dark:text-neutral-500 hover:text-blue-600 dark:hover:text-blue-500"
-                    >
-                      {social.socialIcon}
-                    </a>
-                  ))}
-              </div>
+                </a>
+              ))}
             </div>
-            <div className="flex-1 order-2 lg:order-1 mt-12 sm:max-w-lg lg:mt-0">
+            <div className="lg:mt-14 mt-8 grid items-center lg:grid-cols-2 gap-6 lg:gap-16">
+              <div className="order-1 lg:order-2 py-4 lg:py-0">
+                <h3 className="font-semibold text-gray-800 text-xl">Message</h3>
+                <p className="mt-2 lg:text-lg text-gray-500">
+                  Please feel free to call or email us, or use our contact form
+                  to get in touch with us.
+                </p>
+                <p className="mt-1 lg:text-lg text-gray-500">
+                  We look forward to hearing from you!
+                </p>
+                <div className="flex gap-3 mt-4">
+                  {socials
+                    .filter((method) => method.socialIcon)
+                    .map((social, index) => (
+                      <a
+                        key={index}
+                        href={social.url}
+                        target="_blank"
+                        className="text-gray-500 dark:text-neutral-500 hover:text-blue-600 dark:hover:text-blue-500"
+                      >
+                        {social.socialIcon}
+                      </a>
+                    ))}
+                </div>
+              </div>
+              <div className="flex-1 order-2 lg:order-1 mt-12 sm:max-w-lg lg:mt-0">
                 <form
                   onSubmit={(e) => e.preventDefault()}
                   className="space-y-5 p-6 bg-white border border-gray-200 shadow-sm rounded-lg"
@@ -126,10 +134,11 @@ const Contact = () => {
                   </div> */}
                 </form>
               </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

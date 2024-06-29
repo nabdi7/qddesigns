@@ -17,7 +17,7 @@ const Stats = () => (
       <ul className="flex-wrap gap-x-12 gap-y-10 items-center space-y-8 sm:space-y-0 sm:flex xl:justify-center">
         {stats.map((item, idx) => (
           <li key={idx} className="sm:max-w-[15rem]">
-            <h4 className="text-4xl text-indigo-600 font-semibold">
+            <h4 className="text-4xl text-green-100 font-semibold">
               {item.data}
             </h4>
             <p className="mt-3 font-medium">{item.desc}</p>

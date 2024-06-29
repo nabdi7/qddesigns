@@ -29,7 +29,7 @@ const Packages = () => {
                   <p>{item.desc}</p>
                   <Link
                     href={item.href}
-                    className="text-sm text-indigo-600 duration-150 hover:text-indigo-400 font-medium inline-flex items-center gap-x-1"
+                    className="text-sm text-green-100 duration-150 hover:text-green-200 font-medium inline-flex items-center gap-x-1"
                   >
                     Learn more
                     <svg

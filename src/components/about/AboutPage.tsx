@@ -1,9 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import Wave from "../waves";
+
 const AboutPage = () => {
   return (
     <>
-      <section className="py-14">
+      <Wave />
+      <section className="py-8 lg:py-14">
         <div className="mx-auto max-w-7xl px-5 md:px-10 ">
           <div className="max-w-screen-xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
@@ -72,7 +75,7 @@ const AboutPage = () => {
         <div className="mx-auto max-w-7xl px-5 md:px-10 ">
           <div className="max-w-screen-xl  mx-auto">
             <div className="max-w-3xl mb-10 lg:mb-14">
-              <p className="uppercase text-blue-500">4 easy steps</p>
+              <p className="uppercase text-green-100 text-transparent bg-clip-text">4 easy steps</p>
               <h2 className=" font-semibold text-3xl md:text-5xl md:leading-tight">
                 Our approach
               </h2>
@@ -94,7 +97,7 @@ const AboutPage = () => {
 
               <div>
                 <div className="mb-4">
-                  <h3 className="text-blue-500 text-xs font-medium uppercase">
+                  <h3 className="text-green-100 text-transparent bg-clip-text text-xs font-medium uppercase">
                     Steps
                   </h3>
                 </div>
@@ -102,7 +105,7 @@ const AboutPage = () => {
                 <div className="flex gap-x-5 ms-1">
                   <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
                     <div className="relative z-10 size-8 flex justify-center items-center">
-                      <span className="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-blue-500 font-semibold text-xs uppercase rounded-full">
+                      <span className="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-green-100 text-transparent bg-clip-text font-semibold text-xs uppercase rounded-full">
                         1
                       </span>
                     </div>
@@ -110,7 +113,7 @@ const AboutPage = () => {
 
                   <div className="grow pt-0.5 pb-8 sm:pb-12">
                     <p className="text-sm lg:text-base text-neutral-400">
-                      <span className="text-blue-500">
+                      <span className="text-green-100 text-transparent bg-clip-text font-medium">
                         Market Research and Planning: {""}
                       </span>
                       Identify your target audience, then create a project plan
@@ -123,7 +126,7 @@ const AboutPage = () => {
                 <div className="flex gap-x-5 ms-1">
                   <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
                     <div className="relative z-10 size-8 flex justify-center items-center">
-                      <span className="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-blue-500 font-semibold text-xs uppercase rounded-full">
+                      <span className="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-green-100 text-transparent bg-clip-text font-semibold text-xs uppercase rounded-full">
                         2
                       </span>
                     </div>
@@ -131,7 +134,7 @@ const AboutPage = () => {
 
                   <div className="grow pt-0.5 pb-8 sm:pb-12">
                     <p className="text-sm lg:text-base text-neutral-400">
-                      <span className="text-blue-500">
+                      <span className="text-green-100 text-transparent bg-clip-text font-medium">
                         Product Design and Development: {""}
                       </span>
                       Create and refine the product&apos;s design, focusing on
@@ -144,7 +147,7 @@ const AboutPage = () => {
                 <div className="flex gap-x-5 ms-1">
                   <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
                     <div className="relative z-10 size-8 flex justify-center items-center">
-                      <span className="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-blue-500 font-semibold text-xs uppercase rounded-full">
+                      <span className="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-green-100 text-transparent bg-clip-text font-semibold text-xs uppercase rounded-full">
                         3
                       </span>
                     </div>
@@ -152,7 +155,7 @@ const AboutPage = () => {
 
                   <div className="grow pt-0.5 pb-8 sm:pb-12">
                     <p className="text-sm md:text-base text-neutral-400">
-                      <span className="text-blue-500">
+                      <span className="text-green-100 text-transparent bg-clip-text font-medium">
                         Product Testing: {""}
                       </span>
                       We rigorously test the website for responsiveness,
@@ -164,7 +167,7 @@ const AboutPage = () => {
                 <div className="flex gap-x-5 ms-1">
                   <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
                     <div className="relative z-10 size-8 flex justify-center items-center">
-                      <span className="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-blue-500 font-semibold text-xs uppercase rounded-full">
+                      <span className="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-green-100 text-transparent bg-clip-text font-semibold text-xs uppercase rounded-full">
                         4
                       </span>
                     </div>
@@ -172,7 +175,7 @@ const AboutPage = () => {
 
                   <div className="grow pt-0.5 pb-8 sm:pb-12">
                     <p className="text-sm md:text-base text-neutral-400">
-                      <span className="text-blue-500">
+                      <span className="text-green-100 text-transparent bg-clip-text font-medium">
                         Launch and Optimization: {""}
                       </span>
                       Launch your digital products or services to the market,
@@ -183,7 +186,7 @@ const AboutPage = () => {
                 </div>
 
                 <a
-                  className="group inline-flex items-center gap-x-2 py-2 px-4 bg-blue-500 font-medium text-sm text-white rounded-full focus:outline-none"
+                  className="group inline-flex items-center gap-x-2 py-2 px-4 bg-green-100 font-medium text-sm text-white rounded-full focus:outline-none"
                   href="tel:+12068833462"
                 >
                   <svg

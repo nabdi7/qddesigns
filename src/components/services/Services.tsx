@@ -1,19 +1,20 @@
 import React from "react";
+import Wave from "../waves";
 
 const services = [
   {
     title: "Website Development",
     description:
-      "Our digital marketing strategies help you reach a larger audience and increase conversions. We use a variety of tactics including SEO, PPC, content marketing, and social media marketing to drive traffic and engagement.",
-    icon: "📈",
-    types: ["SEO", "PPC", "Content Marketing", "Social Media Marketing"],
+      "We build responsive, user-friendly websites that drive engagement and conversions. Our web development services ensure your site is fast, secure, and optimized for the best user experience.",
+    icon: "💻",
+    types: ["Custom Website", "CMS Development", "E-commerce Development", "Website Maintenance"],
   },
   {
     title: "App Development",
     description:
-      "Our digital marketing strategies help you reach a larger audience and increase conversions. We use a variety of tactics including SEO, PPC, content marketing, and social media marketing to drive traffic and engagement.",
-    icon: "📈",
-    types: ["SEO", "PPC", "Content Marketing", "Social Media Marketing"],
+      "Transform your ideas into functional, user-centric mobile and web applications. Our app development services include design, development, and maintenance to ensure your app performs seamlessly across all devices.",
+    icon: "📱",
+    types: ["iOS Development", "Android Development", "Cross-Platform Development", "Progressive Web Apps"],
   },
   {
     title: "Branding",
@@ -44,14 +45,9 @@ const services = [
   {
     title: "Quality Assurance",
     description:
-      "Get professional business advice to streamline your processes and boost growth. Our consulting services cover a range of areas including business strategy, operations, and technology.",
-    icon: "💼",
-    types: [
-      "Business Strategy",
-      "Operations Consulting",
-      "Technology Consulting",
-      "Financial Consulting",
-    ],
+      "Ensure the highest quality for your software with our quality assurance services. We provide comprehensive testing, including manual and automated testing, to identify and fix issues before they impact your users.",
+    icon: "✔️",
+    types: ["Manual Testing", "Automated Testing", "Performance Testing", "Security Testing"],
   },
   {
     title: "Graphic Design",
@@ -68,51 +64,55 @@ const services = [
   {
     title: "Animation",
     description:
-      "Get professional business advice to streamline your processes and boost growth. Our consulting services cover a range of areas including business strategy, operations, and technology.",
-    icon: "💼",
+      "Bring your ideas to life with our animation services. We create engaging animations for various purposes, including explainer videos, product demos, and marketing campaigns.",
+    icon: "🎥",
     types: [
-      "Business Strategy",
-      "Operations Consulting",
-      "Technology Consulting",
-      "Financial Consulting",
+      "2D Animation",
+      "3D Animation",
+      "Motion Graphics",
+      "Explainer Videos",
     ],
   },
 ];
 
+
 const Services = () => {
   return (
-    <section className="custom-screen py-14 pb-32 lg:py-20">
-      <div className="max-w-3xl xl:mx-auto xl:text-center md:text-center md:mx-auto">
-        <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-          How We Can Help Your Business
-        </h3>
-      </div>
-      <div className="mt-10">
-        {services.map((service, index) => (
-          <div
-            key={index}
-            className="flex flex-col lg:flex-row items-center mb-16"
-          >
-            <div className="flex flex-col items-center w-full lg:w-1/2 text-center">
-              <div className="text-6xl mb-4">{service.icon}</div>
-              <h2 className="text-2xl font-bold text-gray-800">
-                {service.title}
-              </h2>
-            </div>
-            <div className="w-full lg:w-1/2 lg:pl-12 text-left">
-              <p className="text-gray-600 mb-4">{service.description}</p>
-              <div className="grid grid-cols-2 gap-x-4 list-disc pl-5 text-gray-600">
-                {service.types.map((type, typeIndex) => (
-                  <li key={typeIndex} className="break-words">
-                    {type}
-                  </li>
-                ))}
+    <>
+      <Wave />
+      <section className="custom-screen py-8 lg:py-14">
+        <div className="max-w-3xl xl:mx-auto xl:text-center md:text-center md:mx-auto pb-6">
+          <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+            How We Can Help Your Business
+          </h3>
+        </div>
+        <div className="mt-10">
+          {services.map((service, index) => (
+            <div
+              key={index}
+              className="flex flex-col lg:flex-row items-center mb-16 pb-6"
+            >
+              <div className="flex flex-col items-center w-full lg:w-1/2 text-center pb-6">
+                <div className="text-6xl mb-4 pb-4">{service.icon}</div>
+                <h2 className="text-2xl font-bold text-gray-800">
+                  {service.title}
+                </h2>
+              </div>
+              <div className="w-full lg:w-1/2 lg:pl-12 text-left">
+                <p className="text-gray-600 mb-4">{service.description}</p>
+                <div className="grid grid-cols-2 gap-x-4 list-disc pl-5 text-gray-600">
+                  {service.types.map((type, typeIndex) => (
+                    <li key={typeIndex} className="break-words">
+                      {type}
+                    </li>
+                  ))}
+                </div>
               </div>
             </div>
-          </div>
-        ))}
-      </div>
-    </section>
+          ))}
+        </div>
+      </section>
+    </>
   );
 };
 

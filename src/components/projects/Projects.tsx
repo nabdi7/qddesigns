@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
       <div className="max-w-3xl xl:mx-auto xl:text-center md:text-center md:mx-auto">
         <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
           A glimpse into our{" "}
-          <span className="text-transparent bg-clip-text bg-indigo-600">
+          <span className="text-green-100 text-transparent bg-clip-text">
             projects
           </span>
         </h3>
@@ -31,7 +31,7 @@ const Projects: React.FC = () => {
             key={category}
             className={`px-4 py-2 rounded-full ${
               selectedCategory === category
-                ? "bg-indigo-600 text-white"
+                ? "bg-green-100 text-white"
                 : "bg-gray-200 text-gray-700"
             }`}
             onClick={() => setSelectedCategory(category)}
