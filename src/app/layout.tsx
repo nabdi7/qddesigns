@@ -12,10 +12,10 @@ export const metadata: Metadata = {
   description: "A digital agency specializing in web development, logo design, branding, and app development.",
   keywords: "web development, logo design, branding, app development",
   openGraph: {
-    title: "TigerTastic Family Daycare",
-    description: "A family daycare that provides a safe, nurturing, and educational environment for children.",
+    title: "QD Web Designs",
+    description: "A digital agency specializing in web development, logo design, branding, and app development.",
     type: "website",
-    siteName: "TigerTastic Family Daycare",
+    siteName: "QD Web Designs",
     url: "https://qualitydesigns.site",
 
     // images: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     //     url: "https://qualitydesigns.site/img5.jpg",
     //     width: 500,
     //     height: 500,
-    //     alt: "TigerTastic Family Daycare",
+    //     alt: "QD Web Designs",
     //   },
     // ],
   },

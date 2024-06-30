@@ -28,7 +28,7 @@ const About3 = () => {
           </div>
           <div className="flex-none w-full lg:max-w-xl md:max-w-3xl ">
             <Image
-              src="/cta-img.svg"
+              src="https://res.cloudinary.com/dlehxkdtn/image/upload/blob_dkdaf4.png"
               alt="hero"
               width={500}
               height={500}

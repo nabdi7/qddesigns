@@ -13,15 +13,15 @@ const AboutPage = () => {
               <div className="aspect-w-16 aspect-h-9 lg:aspect-none">
                 <Image
                   className="w-full object-cover rounded-xl"
-                  src="/untitled2.png"
-                  alt="Image Description"
+                  src="https://res.cloudinary.com/dlehxkdtn/image/upload/untitled2_kaggtq.png"
+                  alt="About Image"
                   width="500"
                   height="500"
                 />
               </div>
 
               <div>
-                <h2 className=" font-semibold text-3xl md:text-5xl md:leading-tight">
+                <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
                   About us
                 </h2>
                 <div className="flex gap-x-5 ms-1">
@@ -76,7 +76,7 @@ const AboutPage = () => {
           <div className="max-w-screen-xl  mx-auto">
             <div className="max-w-3xl mb-10 lg:mb-14">
               <p className="uppercase text-green-100 bg-clip-text">4 easy steps</p>
-              <h2 className=" font-semibold text-3xl md:text-5xl md:leading-tight">
+              <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
                 Our approach
               </h2>
               <p className="mt-1 text-sm lg:text-base text-neutral-400">
@@ -88,10 +88,12 @@ const AboutPage = () => {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
               <div className="aspect-w-16 aspect-h-9 lg:aspect-none">
-                <img
+                <Image
+                  src="https://res.cloudinary.com/dlehxkdtn/image/upload/approach_gtnjnw.avif"
+                  width="500"
+                  height="500"
                   className="w-full object-cover rounded-xl"
-                  src="https://images.unsplash.com/photo-1587614203976-365c74645e83?q=80&w=480&h=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt="Image Description"
+                  alt="Approach image"
                 />
               </div>
 
