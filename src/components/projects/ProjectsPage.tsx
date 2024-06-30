@@ -16,7 +16,7 @@ const ProjectsPage: React.FC = () => {
     <>
       <Wave />
       <section className="custom-screen text-gray-600 gap-20 py-8 md:gap-28 lg:py-14">
-        <div className="max-w-3xl xl:mx-auto xl:text-center md:text-center md:mx-auto">
+        <div className="max-w-3xl relative mx-auto sm:text-center">
           <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
             Our{" "}
             <span className="text-transparent bg-clip-text bg-green-100">
@@ -24,7 +24,7 @@ const ProjectsPage: React.FC = () => {
             </span>
           </h3>
           <p className="mt-3">
-            A look at some of the amazing websites that we&apos;ve built recently.
+            A look at some of the amazing projects that we&apos;ve built recently.
           </p>
         </div>
         <div className="mt-8 flex justify-center space-x-4">

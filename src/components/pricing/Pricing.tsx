@@ -34,7 +34,7 @@ const Pricing = () => {
                   </span>
                 )}
                 <div className="p-8 space-y-4 border-b">
-                  <span className="text-green-100 text-transparent bg-clip-text font-medium">
+                  <span className="text-green-100 bg-clip-text font-medium">
                     {item.name}
                   </span>
                   <div className="text-gray-800 text-3xl font-semibold">

@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
       <div className="max-w-3xl xl:mx-auto xl:text-center md:text-center md:mx-auto">
         <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
           A glimpse into our{" "}
-          <span className="text-green-100 text-transparent bg-clip-text">
+          <span className="text-green-100 bg-clip-text">
             projects
           </span>
         </h3>

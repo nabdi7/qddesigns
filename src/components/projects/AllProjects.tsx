@@ -54,7 +54,7 @@ export const projects: Project[] = [
   {
     title: "Tigertastic Family Daycare",
     description: "A website for a daycare business located in Seattle, WA.",
-    image: "/tigertastic.png",
+    image: "/tigertasticweb.png",
     category: "Websites",
     url: "https://www.tigertasticfamilydaycare.com",
   },
