@@ -1,13 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // output: 'export',
   images: {
-    // domains: ['localhost'],
+    domains: ['localhost'],
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "**",
+        hostname: "res.cloudinary.com",
         port: "",
+        pathname: '/dlehxkdtn/**',
+        // https://res.cloudinary.com/dlehxkdtn/image/upload/untitled2_kaggtq.png
       },
     ],
   },
