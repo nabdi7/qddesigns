@@ -1,6 +1,7 @@
 "use client";
 import { testimonials } from "./index";
 import { Testimonials } from "../types/testimonial";
+import Image from "next/image";
 
 const Testimonial = () => {
   const renderStars = (rating: number) => {
@@ -44,10 +45,11 @@ const Testimonial = () => {
               <li key={idx} className="bg-gray-100 p-4 rounded-xl">
                 <figure>
                   <div className="flex items-center gap-x-4">
-                    <img
+                    <Image
                       src={item.avatar}
                       className="w-16 h-16 rounded-full"
                       alt={`${item.name}'s avatar`}
+                      width="500" height="500"
                     />
                     <div>
                       <span className="block text-gray-800 font-semibold">
