@@ -1,25 +1,27 @@
-"use client";
-import React, { useEffect } from "react";
+"use client"
+import React, { useEffect } from 'react';
 
 const Chatbot = () => {
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://cdn.botpenguin.com/website-bot.js";
+    const script = document.createElement('script');
+    script.src = 'https://app.livechatai.com/embed.js';
+    script.async = true;
     script.defer = true;
-    script.id = "messenger-widget-b";
-    script.setAttribute(
-      "data-key",
-      "668220267da709ebda6e8827,66821ffbbe6ca632ba7a7d95"
-    );
-
+    script.setAttribute('data-id', 'cllnj46pb0001ma0f9o3yupav');
     document.body.appendChild(script);
 
     return () => {
+      // Cleanup: remove the script when the component is unmounted
       document.body.removeChild(script);
     };
   }, []);
 
-  return <div></div>;
+  return (
+    
+    <div>
+      {/* Your component's content */}
+    </div>
+  );
 };
 
-export default Chatbot;
+export default Chatbot
