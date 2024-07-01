@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className='h-20 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 relative'>
         <div className='h-full flex items-center justify-between'>
           <Link href='/'>
-            <Image src='/logo.png' alt='logo' width={150} height={150} />
+            <Image src='https://res.cloudinary.com/dlehxkdtn/image/upload/logo_oy2wnc.png' alt='logo' width={120} height={100} />
           </Link>
           <div className='lg:hidden'>
             <Menu />

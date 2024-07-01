@@ -42,7 +42,7 @@ export default function RootLayout({
         <main className="relative overflow-hidden">
           {children}
         </main>
-        {/* <Chatbot /> */}
+        <Chatbot />
         <Footer />
         </body>
     </html>
