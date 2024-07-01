@@ -9,9 +9,10 @@ type ButtonProps = {
   full?: boolean;
   shape: "circle" | "rectangle";
   href?: string;
+  onClick?: () => void;
 };
 
-const Button = ({ type, title, icon, variant, full, shape, href }: ButtonProps) => {
+const Button = ({ type, title, icon, variant, full, shape, href, onClick }: ButtonProps) => {
     const shapeClasses = shape === 'circle' ? 'rounded-full' : 'rounded-md';
     const buttonContent = (
       <button
@@ -25,7 +26,7 @@ const Button = ({ type, title, icon, variant, full, shape, href }: ButtonProps) 
   
     if (href) {
       return (
-        <Link href={href}>
+        <Link href={href} onClick={onClick}>
           {buttonContent}
         </Link>
       );

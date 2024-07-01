@@ -69,7 +69,8 @@ const Menu: React.FC = () => {
             title='Get A Quote' 
             variant='btn_white'
             shape='rectangle' 
-            href='/getquote' 
+            href='/getquote'
+            onClick={handleCloseMenu} 
           />
         </div>
       )}

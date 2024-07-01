@@ -2,6 +2,7 @@
 import { testimonials } from "./index";
 import { Testimonials } from "../types/testimonial";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const Testimonial = () => {
   const renderStars = (rating: number) => {
@@ -39,35 +40,54 @@ const Testimonial = () => {
             us. We strive to deliver exceptional results.
           </p>
         </div>
-        <div className="mt-12">
-          <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {testimonials.map((item: Testimonials, idx: number) => (
-              <li key={idx} className="bg-gray-100 p-4 rounded-xl">
-                <figure>
-                  <div className="flex items-center gap-x-4">
-                    <Image
-                      src={item.avatar}
-                      className="w-16 h-16 rounded-full"
-                      alt={`${item.name}'s avatar`}
-                      width="500" height="500"
-                    />
-                    <div>
-                      <span className="block text-gray-800 font-semibold">
-                        {item.name}
-                      </span>
-                      <span className="block text-gray-600 text-sm mt-0.5">
-                        {renderStars(item.rating)}
-                      </span>
+        <motion.div
+          variants={{
+            hidden: {
+              opacity: 0,
+              y: -20,
+            },
+
+            visible: {
+              opacity: 1,
+              y: 0,
+            },
+          }}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 1, delay: 0.1 }}
+          viewport={{ once: true }}
+        >
+          <div className="mt-12">
+            <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {testimonials.map((item: Testimonials, idx: number) => (
+                <li key={idx} className="bg-gray-100 p-4 rounded-xl">
+                  <figure>
+                    <div className="flex items-center gap-x-4">
+                      <Image
+                        src={item.avatar}
+                        className="w-16 h-16 rounded-full"
+                        alt={`${item.name}'s avatar`}
+                        width="500"
+                        height="500"
+                      />
+                      <div>
+                        <span className="block text-gray-800 font-semibold">
+                          {item.name}
+                        </span>
+                        <span className="block text-gray-600 text-sm mt-0.5">
+                          {renderStars(item.rating)}
+                        </span>
+                      </div>
                     </div>
-                  </div>
-                  <blockquote>
-                    <p className="mt-6 text-gray-700">{item.quote}</p>
-                  </blockquote>
-                </figure>
-              </li>
-            ))}
-          </ul>
-        </div>
+                    <blockquote>
+                      <p className="mt-6 text-gray-700">{item.quote}</p>
+                    </blockquote>
+                  </figure>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </motion.div>
       </div>
       {/* <div className="border-y py-14"></div> */}
     </section>
