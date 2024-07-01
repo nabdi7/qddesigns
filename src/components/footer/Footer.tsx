@@ -110,7 +110,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8  py-6 lg:py-8 lg:grid-cols-4 md:grid-cols-2">
           <div className="space-y-4">
             <Link href="/" className="md:mr-12">
-              <Image src="/logo.png" alt="logo" width={150} height={150} />
+              <Image src="https://res.cloudinary.com/dlehxkdtn/image/upload/logo_oy2wnc.png" alt="logo" width={150} height={100} />
             </Link>
           </div>
           <div className="space-y-4">
