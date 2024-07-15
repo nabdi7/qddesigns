@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Wave from "../waves";
+import Team from "../team/Team";
 
 const AboutPage = () => {
   return (
@@ -220,6 +221,9 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
+        
+        {/* our team */}
+        <Team />
     </>
   );
 };
