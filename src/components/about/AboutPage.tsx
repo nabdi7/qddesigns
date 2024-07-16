@@ -223,7 +223,7 @@ const AboutPage = () => {
       </section>
         
         {/* our team */}
-        <Team />
+        {/* <Team /> */}
     </>
   );
 };
