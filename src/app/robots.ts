@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: ['/'],
             disallow: '/private/',
         },
-        sitemap: "https://qualitydesigns.site/sitemap",
+        sitemap: "https://www.qualitydesigns.site/sitemap",
     }
 }

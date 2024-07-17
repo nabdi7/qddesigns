@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "A digital agency specializing in web development, logo design, branding, and app development.",
     type: "website",
     siteName: "QD Web Designs",
-    url: "https://qualitydesigns.site",
+    url: "https://www.qualitydesigns.site/",
 
     // images: [
     //   {
