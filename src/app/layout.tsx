@@ -21,15 +21,28 @@ export const metadata: Metadata = {
     siteName: "QD Web Designs",
     url: "https://www.qualitydesigns.site/",
 
-    // images: [
-    //   {
-    //     url: "https://qualitydesigns.site/img5.jpg",
-    //     width: 500,
-    //     height: 500,
-    //     alt: "QD Web Designs",
-    //   },
-    // ],
+    images: [
+      {
+        url: `/og.jpg`,
+        width: 1200,
+        height: 630,
+        alt: "QD Web Designs",
+      },
+    ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "QD Web Designs",
+    description: "A digital agency specializing in web development",
+    images: [`/og.png`],
+    creator: "@qualitydesigns",
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: `/site.webmanifest`,
 };
 
 export default function RootLayout({
