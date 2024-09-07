@@ -41,8 +41,8 @@ const contactMethods = [
       </svg>
     ),
     title: "Email Address",
-    contact: "info@qualitydesigns.site",
-    link: "mailto:info@qualitydesigns.site",
+    contact: "qdwebdesigns@gmail.com",
+    link: "mailto:qdwebdesigns@gmail.com",
   },
   // address
   {

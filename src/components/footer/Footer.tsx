@@ -10,8 +10,8 @@ const Footer = () => {
       link: "tel:+12068833462",
     },
     {
-      contact: "info@qualitydesigns.site",
-      link: "mailto:info@qualitydesigns.site",
+      contact: "qdwebdesigns@gmail.com",
+      link: "mailto:qdwebdesigns@gmail.com",
     },
     {
       contact: "11235 1st Ave S, Seattle, WA",

@@ -30,7 +30,7 @@ const faqs = [
   {
     question: "My question isn't in this list!",
     answer:
-      "Please contact us with your question and we'll get back to you shortly.",
+      "Please contact us with your question at qdwebdesigns@gmail.com and we'll get back to you shortly.",
   },
 ];
 
