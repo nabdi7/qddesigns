@@ -2,7 +2,7 @@ const plans = [
   {
     name: "Standard",
     desc: "We will create a brochure style website based off of a theme.",
-    price: 700,
+    price: 500,
     isMostPop: false,
     features: [
       { name: "1-5 Pages", isNegative: false },
