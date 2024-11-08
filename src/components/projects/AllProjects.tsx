@@ -24,12 +24,19 @@ export const projects: Project[] = [
     url: "https://www.brightsmileshomechildcare.com",
   },
   {
-    title: "Najah Family Childcare",
-    description: "A website for Najah Family Childcare, located in Seattle WA emphasizing safety and care for young children.",
-    image: "/najah.png",
+    title: "Tigertastic Family Daycare",
+    description: "A website for a daycare business located in Seattle, WA.",
+    image: "https://res.cloudinary.com/dlehxkdtn/image/upload/tigertasticweb_b7nz5y.png",
     category: "Websites",
-    url: "https://najah.vercel.app/",
+    url: "https://tigertastic.vercel.app/",
   },
+  // {
+  //   title: "Najah Family Childcare",
+  //   description: "A website for Najah Family Childcare, located in Seattle WA emphasizing safety and care for young children.",
+  //   image: "/najah.png",
+  //   category: "Websites",
+  //   url: "https://najah.vercel.app/",
+  // },
 
   {
     title: "Alhuda Islamic Center",
@@ -51,12 +58,5 @@ export const projects: Project[] = [
     image: "https://res.cloudinary.com/dlehxkdtn/image/upload/restaurant_v8mcbd.png",
     category: "Apps",
     url: "https://halalrestaurant.com",
-  },
-  {
-    title: "Tigertastic Family Daycare",
-    description: "A website for a daycare business located in Seattle, WA.",
-    image: "https://res.cloudinary.com/dlehxkdtn/image/upload/tigertasticweb_b7nz5y.png",
-    category: "Websites",
-    url: "https://www.tigertasticfamilydaycare.com",
   },
 ];
