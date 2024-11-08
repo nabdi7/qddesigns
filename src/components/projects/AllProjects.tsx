@@ -10,11 +10,11 @@ export const projects: Project[] = [
     url: "https://www.almaaschildcare.com",
   },
   {
-    title: "Halal Zone",
-    description: "An app that helps users find authentic halal food with ease based on their location.",
-    image: "https://res.cloudinary.com/dlehxkdtn/image/upload/restaurant_v8mcbd.png",
+    title: "Emotions",
+    description: "An app facilitating emotional well-being management.",
+    image: "https://res.cloudinary.com/dlehxkdtn/image/upload/emotions_hrn0pz.png",
     category: "Apps",
-    url: "https://halalrestaurant.com",
+    url: "https://emotions-web.vercel.app/",
   },
   {
     title: "Bright Smiles Childcare",
@@ -24,11 +24,19 @@ export const projects: Project[] = [
     url: "https://www.brightsmileshomechildcare.com",
   },
   {
+    title: "Najah Family Childcare",
+    description: "A website for Bright Smiles Childcare, emphasizing safety and care for young children.",
+    image: "/najah.png",
+    category: "Websites",
+    url: "https://najah.vercel.app/",
+  },
+
+  {
     title: "Alhuda Islamic Center",
     description: "A website for a mosque, serving the Muslim community in Kent, WA.",
     image: "https://res.cloudinary.com/dlehxkdtn/image/upload/alhudaweb_jeq48b.png",
     category: "Websites",
-    url: "https://www.alhudaislamiccenter.com",
+    url: "https://najah.vercel.app/",
   },
   {
     title: "Hadiya Childcare",
@@ -45,11 +53,11 @@ export const projects: Project[] = [
   //   url: "https://www.lovingcarechildcare.com",
   // },
   {
-    title: "Emotions",
-    description: "An app facilitating emotional well-being management.",
-    image: "https://res.cloudinary.com/dlehxkdtn/image/upload/emotions_hrn0pz.png",
+    title: "Halal Zone",
+    description: "An app that helps users find authentic halal food with ease based on their location.",
+    image: "https://res.cloudinary.com/dlehxkdtn/image/upload/restaurant_v8mcbd.png",
     category: "Apps",
-    url: "https://emotions.com",
+    url: "https://halalrestaurant.com",
   },
   {
     title: "Tigertastic Family Daycare",
