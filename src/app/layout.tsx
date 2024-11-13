@@ -9,18 +9,17 @@ import Chatbot from "@/components/chatbot/Chatbot";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "QD Web Designs",
+  title: "Web Designs | QD Web Designs",
   description:
-    "A digital agency specializing in web development, web design, logo design, branding, and app development.",
-  keywords: "web development, logo design, branding, app development",
+    "QD Web Designs is a digital agency in Seattle specializing in web development, web design, logo design, branding, and app development.",
+  keywords: "web designs, web development, logo design, branding, app development, Seattle",
   openGraph: {
-    title: "QD Web Designs",
+    title: "Web Designs | QD Web Designs",
     description:
-      "A digital agency specializing in web development, web design, logo design, branding, and app development.",
+      "QD Web Designs is a digital agency in Seattle specializing in web development, web design, logo design, branding, and app development.",
     type: "website",
     siteName: "QD Web Designs",
     url: "https://www.qdwebdesigns.com/",
-
     images: [
       {
         url: `/og.jpg`,
@@ -32,8 +31,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "QD Web Designs",
-    description: "A digital agency specializing in web development, web design",
+    title: "Web Designs | QD Web Designs",
+    description: "QD Web Designs is a digital agency in Seattle specializing in web development, web design",
     images: [`/og.png`],
     creator: "@qualitydesigns",
   },
@@ -44,7 +43,7 @@ export const metadata: Metadata = {
   },
   manifest: `/site.webmanifest`,
   // verification: {
-  //   google: "Dmydp582e3gUmhUna9sMGok0gJLAW8mMwAFchxDcdPo", 
+  //   google: "Dmydp582e3gUmhUna9sMGok0gJLAW8mMwAFchxDcdPo",
   // },
 };
 
