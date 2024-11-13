@@ -5,7 +5,7 @@ const faqs = [
   {
     question: "How long should a web design project take?",
     answer:
-      "The duration of a web design project can vary depending on its complexity and scope. Typically, a simple brochure-style website with a few pages may take around 4-6 weeks to complete. More complex websites with custom designs, advanced features, and e-commerce functionality could take several more weeks. To get a more accurate estimate for your specific project, please reach out to us for a personalized consultation.",
+      "The duration of a web design project can vary depending on its complexity and scope. Typically, a simple brochure-style website with a few pages may take around 1-2 weeks to complete. More complex websites with custom designs, advanced features, and e-commerce functionality could take several more weeks. To get a more accurate estimate for your specific project, please reach out to us for a personalized consultation.",
   },
   {
     question: "How long should a logo design take?",
@@ -15,7 +15,7 @@ const faqs = [
   {
     question: "How long does it take a build a WordPress website?",
     answer:
-      "The development time for a WordPress website depends on various factors, including the design complexity, the number of pages, features, and integrations required. A basic WordPress website could be completed in a few weeks, while a more comprehensive and customized site may take a few months. We aim to deliver high-quality websites within a reasonable timeframe, and our team is dedicated to meeting project milestones efficiently. In general it could take 4-6 weeks.",
+      "The development time for a WordPress website depends on various factors, including the design complexity, the number of pages, features, and integrations required. A basic WordPress website could be completed in a few weeks, while a more comprehensive and customized site may take a few months. We aim to deliver high-quality websites within a reasonable timeframe, and our team is dedicated to meeting project milestones efficiently. In general it could take 2-4 weeks.",
   },
   {
     question: "What is the process of website development?",
