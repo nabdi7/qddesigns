@@ -22,6 +22,13 @@ export const testimonials: Testimonials[] = [
       quote:
         "I had a great experience working with Najib.",
     },
+    {
+      avatar: "https://lh3.googleusercontent.com/a/ACg8ocJ9_UTzLKTGKKgRnpCFdecyO6uwtlxgNbYQTtNWuIw15fh8RQ=w36-h36-p-rp-mo-br100",
+      name: "Steve",
+      rating: 5,
+      quote:
+        "QD Web Designs created my new business website, and the experience was outstanding. They delivered a highly functional website that perfectly captured my brand identity. Great communication from start to end.",
+    },
     // {
     //   avatar: "/",
     //   name: "Tigertastic",
