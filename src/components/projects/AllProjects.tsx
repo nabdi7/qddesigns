@@ -11,12 +11,12 @@ export const projects: Project[] = [
     url: "https://www.almaaschildcare.com",
   },
   {
-    title: "Emotions",
+    title: "Sakina App",
     description: "An app facilitating emotional well-being management.",
     image:
       "https://res.cloudinary.com/dlehxkdtn/image/upload/emotions_hrn0pz.png",
     category: "Apps",
-    url: "https://emotions-web.vercel.app/",
+    url: "https://www.sakinaapp.com/",
   },
   {
     title: "Bright Smiles Childcare",
